@@ -1,3 +1,9 @@
+/**
+ * functions-delegate : Delegate.ts
+ * Olivier Brassard
+ * 2020-11-03
+ */
+
 type DelegateFunction = (...args: any[]) => any;
 
 export abstract class Delegate {

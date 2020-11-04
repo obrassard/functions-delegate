@@ -1,3 +1,9 @@
+/**
+ * functions-delegate : ActionDelegate.ts
+ * Olivier Brassard
+ * 2020-11-03
+ */
+
 import { Delegate } from "./Delegate";
 
 type DelegateFunction = (...args: any[]) => void;
