@@ -62,9 +62,7 @@ Hello Roger from 3
 Hello Roger from 2
 ```
 
-### Function Delegate
-
-### ActionDelegate
+### FunctionDelegate
 
 ```ts
 import { FunctionDelegate } from "functions-delegate";
