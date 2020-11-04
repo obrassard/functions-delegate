@@ -1,11 +1,19 @@
 {
     "name": "functions-delegate",
     "version": "1.0.0",
-    "description": "",
+    "description": "This package, inspired by C# multicast delegation system, allow dynamic mapping of several functions/methods inside a single 'delegate' object which can later be invoked or passed as a function.",
     "license": "MIT",
-    "repository": "",
+    "repository": "https://github.com/obrassard/functions-delegate.git",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "keywords": [
+        "typescript",
+        "javascript",
+        "delegates",
+        "multicast delegates",
+        "delegation",
+        "functions"
+    ],
     "scripts": {
         "build": "tsc",
         "test": "jest --colors",
