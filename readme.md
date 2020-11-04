@@ -92,15 +92,15 @@ Would prints :
 
 ## Interface details
 
-### add(f:DelegateFunction): Delegate
+### `add(f:DelegateFunction): Delegate`
 
 Adds (register) a given function / method to this delegate
 
-### remove(f:DelegateFunction): Delegate
+### `remove(f:DelegateFunction): Delegate`
 
 Remove (unregister) a given function / method of this delegate
 
-### invoke(...args: any[]): void | any[]
+### `invoke(...args: any[]): void | any[]`
 
 Invoke this delegate with the given arguments
 
@@ -108,7 +108,7 @@ Invoke this delegate with the given arguments
 
 This method is `void` for `ActionDelegate`, and returns an array of result (`any[]`) for `FunctionDelegate`
 
-### asFunction(): DelegateFunction
+### `asFunction(): DelegateFunction`
 
 Returns a function that can be called later to `invoke` the delegate
 
